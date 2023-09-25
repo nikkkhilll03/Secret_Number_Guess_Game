@@ -1,3 +1,4 @@
+
 #include <iostream>
 #include <cstdlib>
 #include <ctime>
@@ -7,9 +8,10 @@ using namespace std;
 
 int main() {
     srand(time(0));
-int minNumber,maxNumber;
-    cin>>minNnumbr;
-    cin>>maxNumber;
+    const int minNumber = 1;
+    const int maxNumber = 100;
+    cin>>"minimum number";
+    cin>>"maximum number";
 
     char playAgain;
     
