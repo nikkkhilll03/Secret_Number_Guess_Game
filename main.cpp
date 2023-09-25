@@ -9,6 +9,10 @@ int main() {
     srand(time(0));
     const int minNumber = 1;
     const int maxNumber = 100;
+    cout<<"enter the minimum number";
+    cin>>"minimum number";
+    cout<<"enter the maximum number";
+    cin>>"maximum number
 
     char playAgain;
     
